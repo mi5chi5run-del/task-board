@@ -25,12 +25,15 @@ h1 {
   border: 1px solid #d1d5db;
   border-radius: 8px;
   font-size: 1rem;
+  background: #eaf8ff;
   outline: none;
-  transition: border-color 0.2s;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
 
 .input-row input:focus {
-  border-color: #4f46e5;
+  background: #dff3ff;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.18);
 }
 
 .input-row button {
